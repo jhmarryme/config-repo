@@ -1,1 +1,21 @@
 test: 测试
+
+# 数据库连接串 & 密码
+mysql:
+  url: jdbc:mysql://1.14.140.53:30010/imooc_architect_04_microservice?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+  username: '{cipher}6cc5f6667154a19553c5e05fbe267117762b495407865123588933cba14d5c7b'
+  # 使用加密配置
+  password: '{cipher}4cfb0b002f18a6b6666d5586c6912ffa0f5c9a62bb531e1a4676f685413c0c39'
+redis:
+   password: '{cipher}4cfb0b002f18a6b6666d5586c6912ffa0f5c9a62bb531e1a4676f685413c0c39'
+   host: 1.14.140.53
+   port: 30020
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
