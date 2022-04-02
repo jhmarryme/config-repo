@@ -19,3 +19,9 @@ management:
   endpoint:
     health:
       show-details: always
+      
+# 功能开关 - 开启/关闭注册功能
+# 这里对用户注册功能进行控制
+userservice:
+  registration:
+    disabled: true
