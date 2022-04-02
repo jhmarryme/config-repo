@@ -10,15 +10,6 @@ redis:
    password: '{cipher}4cfb0b002f18a6b6666d5586c6912ffa0f5c9a62bb531e1a4676f685413c0c39'
    host: 1.14.140.53
    port: 30020
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  endpoint:
-    health:
-      show-details: always
       
 # 功能开关 - 开启/关闭注册功能
 # 这里对用户注册功能进行控制
