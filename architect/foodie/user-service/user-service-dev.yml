@@ -24,4 +24,4 @@ management:
 # 这里对用户注册功能进行控制
 userservice:
   registration:
-    disabled: true
+    disabled: false
